@@ -1,6 +1,8 @@
-<h1>Bienvenid@ a tu Dashboard!</h1>
 <div class="container">
-  <app-dashboard></app-dashboard>
-  <app-favorites></app-favorites>
+  <h1>Bienvenid@</h1>
 </div>
+<nav>
+  <a routerLink="/items" routerLinkActivate="active">Artículos</a>
+  <a routerLink="/favorites" routerLinkActivate="active">Favoritos</a>
+</nav>
 <router-outlet></router-outlet>
