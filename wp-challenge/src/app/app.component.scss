@@ -1,0 +1,17 @@
+$font-stack: 'Montserrat', sans-serif;
+$primary-color: rgb(92, 92, 92);
+
+a {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
